@@ -13,7 +13,7 @@ Este proyecto forma parte del **Caso Final 2** del Máster en Data Analyst (D4BS
 | **EDA** | Exploración y limpieza de datos · Perfilado demográfico · KPIs de negocio |
 | **Análisis RFM** | Segmentación de clientes por Recency, Frequency y Monetary Value |
 | **Análisis de Cohortes** | Retención mensual por cohorte de primera compra (6 meses) |
-| **Análisis LTV** | Cálculo del Lifetime Value y modelo predictivo de valor a futuro |
+| **Análisis LTV** | Cálculo del Lifetime Value y proyección de valor por cohortes |
 | **Script automatizado** | Pipeline completo de datos → tableau-ready CSV |
 | **Dashboard Tableau** | Visualización interactiva de KPIs y segmentos |
 
@@ -80,7 +80,7 @@ customer-analytics-2023/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/customer-analytics-2023.git
+git clone https://github.com/begoarmillas/customer-analytics-2023.git
 cd customer-analytics-2023
 ```
 
@@ -131,7 +131,7 @@ O ejecuta los notebooks en orden desde `notebooks/`.
 ### `04_Análisis_LTV.ipynb` — Lifetime Value
 - LTV observado por cliente
 - Curva de LTV acumulado por mes de vida del cliente
-- Modelo predictivo de valor futuro
+- Proyección de valor futuro basada en comportamiento de cohortes
 
 ### `05_Script_final.ipynb` / `src/Automatizacion_CA.py` — Pipeline automatizado
 - Pipeline completo: carga → limpieza → RFM → cohortes → LTV → export
@@ -143,7 +143,7 @@ O ejecuta los notebooks en orden desde `notebooks/`.
 
 El dashboard interactivo está publicado en Tableau Public:
 
-🔗 **[Ver dashboard en Tableau Public](https://public.tableau.com/app/profile/bego.a.armillas.alonso/viz/DashboardCA-curso/Lifetimevalue))**
+🔗 **[Ver dashboard en Tableau Public](https://public.tableau.com/app/profile/bego.a.armillas.alonso/viz/DashboardCA-curso/Lifetimevalue)**
 
 Incluye:
 - KPIs principales (revenue, margen, LTV/CAC)
@@ -160,7 +160,6 @@ Incluye:
 | Python 3.x | Análisis y pipeline de datos |
 | pandas | Manipulación y transformación de datos |
 | matplotlib / seaborn | Visualización exploratoria |
-| scikit-learn | Modelado predictivo (LTV) |
 | Tableau Public | Dashboard interactivo |
 | Google Colab | Entorno de desarrollo |
 
@@ -169,11 +168,12 @@ Incluye:
 ## 👤 Autora
 
 **Begoña Armillas Alonso**
-Máster Data Analyst — D4BS
-[armillas1976@gmail.com](mailto:armillas1976@gmail.com)
-
+Máster Data Analyst — D4BS (en curso)
+[LinkedIn][(https://www.linkedin.com/in/bego%C3%B1a-armillas-alonso-b31a0562/)]
 ---
 
 ## 📄 Licencia
 
 Este proyecto es de carácter educativo. Los datos han sido anonimizados y no corresponden a ninguna empresa real.
+
+
