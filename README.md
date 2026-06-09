@@ -143,7 +143,7 @@ O ejecuta los notebooks en orden desde `notebooks/`.
 
 El dashboard interactivo está publicado en Tableau Public:
 
-🔗 **[Ver dashboard en Tableau Public](https://public.tableau.com/shared/GRCTF8MBM?:display_count=n&:origin=viz_share_link)**
+🔗 **[Ver dashboard en Tableau Public](https://public.tableau.com/app/profile/bego.a.armillas.alonso/viz/DashboardCA-curso/Lifetimevalue))**
 
 Incluye:
 - KPIs principales (revenue, margen, LTV/CAC)
