@@ -1,0 +1,12 @@
+Test,p_raw,efecto,magnitud,p_fdr,sig_fdr_0.05
+Mann-Whitney: Monetary ~ Genero,0.0004449395544679277,r=0.035,negligible,0.0006991907284496007,True
+Kruskal-Wallis: Monetary ~ Tamano_Hogar,0.009548268688775024,eta2=0.0005,negligible,0.013128869447065657,True
+Kruskal-Wallis: Monetary ~ Nivel_Educativo,5.993539566238186e-55,eta2=0.0180,pequeño,1.648223380715501e-54,True
+Kruskal-Wallis: Monetary ~ Ocupacion,7.349586906472448e-69,eta2=0.0225,pequeño,2.6948485323732308e-68,True
+Chi-cuadrado: Segmento x Genero,0.11608425167961964,CramerV=0.0299,negligible,0.11608425167961964,False
+Chi-cuadrado: En_Riesgo x Genero,0.05380428236222888,CramerV=0.0161,negligible,0.059184710598451776,False
+Chi-cuadrado: En_Riesgo x Nivel_Educativo,8.452751852358394e-18,CramerV=0.0789,negligible,1.5496711729323722e-17,True
+Chi-cuadrado: En_Riesgo x Ocupacion,3.5368529769039564e-23,CramerV=0.0895,negligible,7.781076549188704e-23,True
+Chi-cuadrado: En_Riesgo x Tamano_Hogar,0.013765105268601939,CramerV=0.0244,negligible,0.016824017550513482,True
+Spearman: CAC ~ Monetary,2.4392347585805208e-166,rho=0.2264,débil,1.3415791172192865e-165,True
+Spearman: CAC ~ ltv,3.692294809308173e-174,rho=0.2315,débil,4.06152429023899e-173,True
